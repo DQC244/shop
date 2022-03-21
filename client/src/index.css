@@ -1,0 +1,54 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #af9666;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: var(--white-color);
+  box-shadow: inset 0 0 1px 1px rgba(211, 211, 211, 0.5);
+}
+@keyframes upDown {
+  0%,
+  100% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.css-yuzg60-MuiButtonBase-root-MuiPaginationItem-root {
+  font-size: 1.4rem!important;
+}
